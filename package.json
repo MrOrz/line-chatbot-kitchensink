@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,13 @@
   "homepage": "https://github.com/MrOrz/line-chatbot-kitchensink#readme",
   "dependencies": {
     "@line/bot-sdk": "^6.0.1",
-    "express": "^4.16.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.12.1"
   }
 }
