@@ -1,0 +1,22 @@
+{
+  "name": "line-chatbot-kitchensink",
+  "version": "1.0.0",
+  "description": "Test kitchensink",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrOrz/line-chatbot-kitchensink.git"
+  },
+  "author": "MrOrz",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/MrOrz/line-chatbot-kitchensink/issues"
+  },
+  "homepage": "https://github.com/MrOrz/line-chatbot-kitchensink#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^6.0.1"
+  }
+}
