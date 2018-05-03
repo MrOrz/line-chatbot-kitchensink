@@ -19,6 +19,14 @@ http://localhost:3000/webhook.
 
 To run on local machine, you may need to tunnel the webhook server using [serveo](https://serveo.net/).
 
+## Development
+
+To start a server that automatically reloads after file save, run:
+
+```bash
+$ npm run dev
+```
+
 ## Deploy
 
 This repo is ready to be deployed to Heroku.
