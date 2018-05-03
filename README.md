@@ -14,4 +14,7 @@ Copy `.env.sample` to `.env` and fill in its content.
 $ npm start
 ```
 
-To run on local machine, you may need to tunnel the HTTP server using [serveo](https://serveo.net/).
+The server will be running at http://localhost:3000, with its webhook URL being
+http://localhost:3000/webhook.
+
+To run on local machine, you may need to tunnel the webhook server using [serveo](https://serveo.net/).

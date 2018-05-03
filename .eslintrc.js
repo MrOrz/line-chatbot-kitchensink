@@ -9,6 +9,10 @@ module.exports = {
   plugins: [
     'prettier',
   ],
+  parserOptions: {
+    ecmaVersion: 2017,
+    sourceType: 'module',
+  },
   rules: {
     'prettier/prettier': ['error', {
       trailingComma: 'es5',

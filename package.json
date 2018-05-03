@@ -4,7 +4,7 @@
   "description": "Test kitchensink",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node --experimental-modules -r dotenv/config index.mjs",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/MrOrz/line-chatbot-kitchensink#readme",
   "dependencies": {
     "@line/bot-sdk": "^6.0.1",
+    "dotenv": "^5.0.1",
     "express": "^4.16.3"
   },
   "devDependencies": {
